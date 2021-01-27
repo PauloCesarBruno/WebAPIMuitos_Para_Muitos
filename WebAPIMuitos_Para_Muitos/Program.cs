@@ -21,6 +21,7 @@ namespace WebAPIMuitos_Para_Muitos
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
                     webBuilder.UseStartup<Startup>();
+                    webBuilder.UseIISIntegration();
                 });
     }
 }
