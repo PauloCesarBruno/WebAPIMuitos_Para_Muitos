@@ -29,7 +29,7 @@ namespace WebAPIMuitos_Para_Muitos.Controllers
                 var results = await _repo.GetGrupos();
                 return Ok(results);
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
                 return this.StatusCode(StatusCodes.Status500InternalServerError, $"Falha no Sistema ! {ex.Message}");
             }
@@ -58,10 +58,10 @@ namespace WebAPIMuitos_Para_Muitos.Controllers
             {
                 _repo.Add(model);
 
-               if(await _repo.SaveChagesAsync())
+                if (await _repo.SaveChagesAsync())
                 {
                     return Created($"api/Grupo/{model.Id}", model);
-                }                 
+                }
             }
             catch (Exception ex)
             {
