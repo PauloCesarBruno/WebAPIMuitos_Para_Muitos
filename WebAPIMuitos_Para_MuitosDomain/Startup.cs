@@ -28,8 +28,6 @@ namespace WebAPIMuitos_Para_MuitosDomain
         {
 
             services.AddControllers();
-            services.AddDbContext<AppDbContext>(options =>
-            options.UseSqlServer("Server=DESKTOP-CBCKVV5;Database=Grupo;User ID=sa;Password=Paradoxo22"));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
