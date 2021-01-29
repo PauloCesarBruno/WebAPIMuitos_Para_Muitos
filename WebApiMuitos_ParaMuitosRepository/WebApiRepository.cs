@@ -1,10 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using Microsoft.EntityFrameworkCore;
 using System.Linq;
 using System.Threading.Tasks;
 using WebAPIMuitos_Para_MuitosDomain.Data;
 using WebAPIMuitos_Para_MuitosDomain.Models;
-using Microsoft.EntityFrameworkCore;
 
 namespace WebApiMuitos_ParaMuitosRepository
 {
