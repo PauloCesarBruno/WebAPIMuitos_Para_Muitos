@@ -32,7 +32,7 @@ namespace WebAPIMuitos_Para_Muitos
           );
 
             services.AddDbContext<AppDbContext>(options =>
-            options.UseSqlServer("Server=DESKTOP-CBCKVV5;Database=Grupo;User ID=sa;Password=Paradoxo22"));
+            options.UseSqlServer("Server=DESKTOP-EJP79KA;Database=Grupo;User ID=sa;Password=Paradoxo22"));
             
             services.AddSwaggerGen(c =>
             {
