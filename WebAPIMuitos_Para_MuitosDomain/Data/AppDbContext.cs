@@ -15,7 +15,7 @@ namespace WebAPIMuitos_Para_MuitosDomain.Data
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("Server=DESKTOP-CBCKVV5;Database=Grupo;User ID=sa;Password=Paradoxo22");
+            optionsBuilder.UseSqlServer("Server=DESKTOP-EJP79KA;Database=Grupo;User ID=sa;Password=Paradoxo22");
         }
     }
 }
